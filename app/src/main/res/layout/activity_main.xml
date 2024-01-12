@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="228dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="110dp"
+        android:ems="10"
+        android:hint="correo electronico"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="233dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="110dp"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correo" />
+
+    <Button
+        android:id="@+id/boton_sesion"
+        android:layout_width="201dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="76dp"
+        android:text="Iniciar sesion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contraseña" />
+
+    <Button
+        android:id="@+id/boton_registrar"
+        android:layout_width="201dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="110dp"
+        android:text="Registrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toEndOf="@+id/boton_sesion"
+        app:layout_constraintTop_toBottomOf="@+id/contraseña" />
+
+    <TextView
+        android:id="@+id/contraseñaOlv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="126dp"
+        android:text="He olviddo mi contraseña"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_registrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

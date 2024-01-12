@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/apellidos"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Apellidos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/correo_e"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="252dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Correo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Cotrasena"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bregistra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="60dp"
+        android:text="Registrar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasena" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
